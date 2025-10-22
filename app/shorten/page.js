@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 
-const page = () => {
+const Page = () => {
 
   const [url, seturl] = useState("")
   const [shorturl, setShorturl] = useState("")
@@ -56,4 +56,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
